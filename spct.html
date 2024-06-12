@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="w-[100%px]">
         <div class="bg-secondary">
             <div class="container text-center py-2">
                 <p class="text-[12px] lg:text-sm text-white">
@@ -66,7 +66,7 @@
                 </div>
             </div>
         </div>
-        <div class="hidden lg:block border border-#F4F4F4">
+        <div class="hidden lg:block">
             <div class="container">
                 <nav>
                     <ul class="lg:flex items-center justify-center space-x-10 text-[#46494F]">
@@ -84,8 +84,8 @@
             </div>
         </div>
     </header>
-    <section class="pt-10 container">
-        <div class="px-10 lg:flex justify-center gap-20">
+    <section class="pt-10 flex">
+        <div class="px-10 m-auto lg:flex lg:justify-center gap-20">
             <div>
                 <div class="w-[600] lg:w-[557px] h-[608px] border border-F4F4F4 rounded-2xl left-0">
                     <div class="container w-[400px] h-[400px] pt-12">
@@ -367,7 +367,7 @@
                     class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat">
                     <img src="./assets/images/image 8_prev_ui 2.png" alt="" />
                     <div
-                        class="rounded-full bg-slate-300 text-red-600 absolute w-[150px] h-[64px] flex justify-center items-center">
+                        class="rounded-full bg-slate-300 text-white absolute w-[150px] h-[64px] flex justify-center items-center bg-opacity-75 blur-text">
                         Out Of Stock</div>
 
                 </div>
@@ -403,7 +403,7 @@
                     </div>
                     <img src="./assets/images/image 8_prev_ui 2.png" alt="" />
                     <div
-                        class="rounded-full bg-slate-300 text-red-600 absolute w-[150px] h-[64px] flex justify-center items-center">
+                        class="rounded-full bg-slate-300 text-white absolute w-[150px] h-[64px] flex justify-center items-center bg-opacity-75 blur-text">
                         Out Of Stock</div>
                 </div>
                 <div class="product-content text-center py-5">
@@ -432,24 +432,25 @@
 
         </div>
     </div>
-    <div class="container pt-10">
-        <div
-            class="lg:flex items-center justify-between rounded-3xl py-16 px-20 bg-[url('/assets/images/bgCallToAction.png')] bg-no-repeat bg-cover lg:h-[342px]">
-            <div>
-                <h2 class="text-white font-semibold uppercase text-[64px]/[110%] -tracking-[4px]">
-                    REFER A FRIENDS
+    <section>
+        <div class="container pt-5">
+            <div class="relative bg-[#05422C] p-8 lg:p-16 rounded-2xl">
+                <h2
+                    class="text-[32px]/[120%] -tracking-[1.5px] lg:text-[64px]/[110%] lg:-tracking-[4px] text-white font-semibold uppercase">
+                    UNLOCK 20% OFF YOUR <br class="hidden lg:block" />FIRST ORDER
                 </h2>
-                <div class="flex items-center space-x-5 mt-10">
-                    <span class="text-white text-[32px]/[150%] -tracking-[0.5px]">And get</span>
-                    <span class="text-[#F2BC1B] text-[32px]/[150%] -tracking-[1.5px]">$30!</span>
-                </div>
-            </div>
-            <div>
-                <button class="btn btn-lg">Refer Here</button>
+                <p class="text-xl text-[#C3D2CC] my-10">
+                    Reveal coupon code by entering your email
+                </p>
+                <form action="" class="border-t border-[#346654] pt-10 flex items-center space-x-8">
+                    <input type="text" class="w-full border border-[#346654] rounded-full p-4 lg:p-6"
+                        placeholder="Email Address" />
+                    <button class="btn !h-[72px] min-w-[160px]">Reveal coupon</button>
+                </form>
             </div>
         </div>
-    </div>
-    <footer class="pt-[120px]">
+    </section>
+    <footer class="pt-[320px] mt-[-160px] lg:mt-[-250px]">
         <div class="container">
             <div class="grid lg:grid-cols-12 gap-8">
                 <div class="lg:col-span-4">
